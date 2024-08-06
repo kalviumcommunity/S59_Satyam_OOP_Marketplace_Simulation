@@ -7,7 +7,7 @@ public class Testing {
         Category category3 = new Category("Washroom");
         Category category4 = new Category("Drawing room");
 
-        Product product =  new Product();
+        Product product =  new Product("satyam","bed",25,1,"this is a bed");
         product.displayDetails();
     }
 
