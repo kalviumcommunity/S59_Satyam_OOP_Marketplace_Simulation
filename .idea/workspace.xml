@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Customer.executor": "Run",
-    "Application.Marketplace.executor": "Run",
-    "Application.Testing.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ThisPointer",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Java Coding/OOPS_Project/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Customer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Marketplace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ArrayOfQbj&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java Coding/OOPS_Project/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722854494831</updated>
       <workItem from="1722854495946" duration="6514000" />
-      <workItem from="1722916490896" duration="10533000" />
+      <workItem from="1722916490896" duration="13580000" />
+      <workItem from="1722970271590" duration="356000" />
     </task>
     <servers />
   </component>
