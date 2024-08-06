@@ -2,10 +2,14 @@ package com.marketplace.products;
 
 public class Testing {
     public static void main(String[] args) {
+
+        // I have added "dynamic memory allocation" in previous PR  written below with "new " keyword .
         Category category1 = new Category("Bedroom");
         Category category2 = new Category("Kitchen");
         Category category3 = new Category("Washroom");
-        Category category4 = new Category("Drawing room");
+        Category category4 = new Category("Furniture");
+
+        //There is no need to add "delete" for deleting and memory space because JVM do it by itself .
 
         Product product =  new Product("satyam","bed",25,1,"this is a bed");
         Product product2 =  new Product("shivam","table",20,2,"this is a table");
