@@ -47,12 +47,19 @@ public class Product {
         this.description = description;
     }
 
+    public void updateQuantity(int additionalQuantity) {
+        this.quantity += additionalQuantity;
+    }
+
+
     public void displayDetails(){
+        System.out.println("------------------------");
         System.out.println("Serial No: " + serialNo);
         System.out.println("Name: " + name);
         System.out.println("Price: " + price);
         System.out.println("Quantity: " + quantity);
         System.out.println("Description: " + description);
+        System.out.println("------------------------");
     }
 
     public Product(String serialNo, String name, double price, int quantity, String description){
