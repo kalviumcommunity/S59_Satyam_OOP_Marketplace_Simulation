@@ -8,7 +8,16 @@ public class Testing {
         Category category4 = new Category("Drawing room");
 
         Product product =  new Product("satyam","bed",25,1,"this is a bed");
-        product.displayDetails();
+        Product product2 =  new Product("shivam","table",20,2,"this is a table");
+        category1.addProduct(product);
+        category1.addProduct(product2);
+
+        category1.displayProducts();
+
+        Product display =category1.findProductBySerialNo();
+        display.setQuantity(10);
+        display.displayDetails();
+
     }
 
 }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
     "Application.Marketplace.executor": "Run",
     "Application.Testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Classes__And__Object",
+    "git-widget-placeholder": "ThisPointer",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722854494831</updated>
       <workItem from="1722854495946" duration="6514000" />
-      <workItem from="1722916490896" duration="8725000" />
+      <workItem from="1722916490896" duration="10533000" />
     </task>
     <servers />
   </component>
