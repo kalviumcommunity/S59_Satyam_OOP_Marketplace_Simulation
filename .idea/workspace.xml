@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,9 @@
     "Application.Customer.executor": "Run",
     "Application.Marketplace.executor": "Run",
     "Application.Testing.executor": "Run",
+    "Application.Testing2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "NewAndDelete",
+    "git-widget-placeholder": "StaticVariables",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java Coding/My_OOPS",
     "node.js.detected.package.eslint": "true",
@@ -87,7 +88,7 @@
       <workItem from="1722916490896" duration="13580000" />
       <workItem from="1722970271590" duration="356000" />
       <workItem from="1722970641710" duration="2131000" />
-      <workItem from="1723002679024" duration="2579000" />
+      <workItem from="1723002679024" duration="5560000" />
     </task>
     <servers />
   </component>

@@ -9,5 +9,13 @@ public class Customer {
         customerCount++;
     }
 
+    public static int getCustomerCount() {
+        return customerCount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 
 }

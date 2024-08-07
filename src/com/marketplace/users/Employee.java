@@ -10,6 +10,15 @@ public class Employee {
         employeeCount++;
     }
 
+    public static int getEmployeeCount() {
+        return employeeCount;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
+
 
 
 
