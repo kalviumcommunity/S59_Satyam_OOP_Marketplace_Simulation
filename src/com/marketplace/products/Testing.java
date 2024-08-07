@@ -34,6 +34,17 @@ public class Testing {
         Customer customer2 = new Customer("Shashi");
 
 
+        int EmployeeCount = Employee.getEmployeeCount();
+
+        int CustomerCount = Customer.getCustomerCount();
+
+        System.out.println(EmployeeCount);
+        System.out.println(CustomerCount);
+
+
+
+
+
 
 
     }
