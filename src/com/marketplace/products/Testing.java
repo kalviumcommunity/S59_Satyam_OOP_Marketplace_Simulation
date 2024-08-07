@@ -1,5 +1,8 @@
 package com.marketplace.products;
 
+import com.marketplace.users.Customer;
+import com.marketplace.users.Employee;
+
 public class Testing {
     public static void main(String[] args) {
 
@@ -21,6 +24,17 @@ public class Testing {
         Product display =category1.findProductBySerialNo();
         display.setQuantity(10);
         display.displayDetails();
+
+        Employee employee1 = new Employee("Satyam");
+        Employee employee2 = new Employee("Shivam");
+        Employee employee3 = new Employee("Anshul");
+
+
+        Customer customer = new Customer("sam");
+        Customer customer2 = new Customer("Shashi");
+
+
+
 
     }
 
