@@ -15,35 +15,35 @@ public class Product {
         this.serialNo = serialNo;
     }
 
-    public String name(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public double price(){
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price){
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public int quantity(){
+    public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(int quantity){
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
-    public String description(){
+    public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description){
+    public void setDescription(String description) {
         this.description = description;
     }
 
@@ -51,8 +51,7 @@ public class Product {
         this.quantity += additionalQuantity;
     }
 
-
-    public void displayDetails(){
+    public void displayDetails() {
         System.out.println("------------------------");
         System.out.println("Serial No: " + serialNo);
         System.out.println("Name: " + name);
@@ -62,7 +61,7 @@ public class Product {
         System.out.println("------------------------");
     }
 
-    public Product(String serialNo, String name, double price, int quantity, String description){
+    public Product(String serialNo, String name, double price, int quantity, String description) {
         this.serialNo = serialNo;
         this.name = name;
         this.price = price;
@@ -70,4 +69,3 @@ public class Product {
         this.description = description;
     }
 }
-
