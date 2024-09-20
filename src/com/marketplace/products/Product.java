@@ -61,11 +61,23 @@ public class Product {
         System.out.println("------------------------");
     }
 
+    // Default constructor
+    public Product() {
+        this.serialNo = "defaultSerial";
+        this.name = "defaultName";
+        this.price = 0.0;
+        this.quantity = 0;
+        this.description = "No description";
+        System.out.println("Default constructor called");
+    }
+
+    // Parameterized constructor
     public Product(String serialNo, String name, double price, int quantity, String description) {
         this.serialNo = serialNo;
         this.name = name;
         this.price = price;
         this.quantity = quantity;
         this.description = description;
+        System.out.println("Parameterized constructor called");
     }
 }

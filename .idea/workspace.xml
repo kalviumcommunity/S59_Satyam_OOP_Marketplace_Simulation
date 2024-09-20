@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
     </list>
@@ -67,7 +65,7 @@
     "Application.Testing2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Encapsulation",
+    "git-widget-placeholder": "Abstraction",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java Coding/OOPS_Project",
     "node.js.detected.package.eslint": "true",
@@ -104,7 +102,7 @@
       <workItem from="1723107694436" duration="5000" />
       <workItem from="1724387629261" duration="4557000" />
       <workItem from="1724611952677" duration="772000" />
-      <workItem from="1726810585019" duration="7267000" />
+      <workItem from="1726810585019" duration="9625000" />
     </task>
     <servers />
   </component>

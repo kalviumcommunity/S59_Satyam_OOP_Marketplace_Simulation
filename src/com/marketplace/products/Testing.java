@@ -12,6 +12,9 @@ public class Testing {
         Category category3 = new Category("Washroom");
         Category category4 = new Category("Furniture");
 
+        Product defaultProduct = new Product();
+        defaultProduct.displayDetails();
+
         Product product = new Product("satyam", "bed", 25, 1, "this is a bed");
         Product product2 = new Product("shivam", "table", 20, 2, "this is a table");
         category1.addProduct(product);
