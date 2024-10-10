@@ -1,25 +1,18 @@
 package com.marketplace.users;
 
-public class Employee {
-    private String employeeName;
+public class Employee extends User {
     private static int employeeCount = 0;
 
-    public Employee(String employeeName) {
-        this.employeeName = employeeName;
+    public Employee(String name) {
+        super(name);
         employeeCount++;
     }
 
-    // Accessor (Getter)
-    public String getEmployeeName() {
-        return employeeName;
+    @Override
+    public void displayRole() {
+        System.out.println("Role: Employee");
     }
 
-    // Mutator (Setter)
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
-    // Accessor (Getter) for employeeCount
     public static int getEmployeeCount() {
         return employeeCount;
     }
