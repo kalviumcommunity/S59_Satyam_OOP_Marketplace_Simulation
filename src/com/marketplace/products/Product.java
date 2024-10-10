@@ -80,4 +80,14 @@ public class Product {
         this.description = description;
         System.out.println("Parameterized constructor called");
     }
+
+    // Another overloaded constructor for a Product with no quantity and description
+    public Product(String serialNo, String name, double price) {
+        this.serialNo = serialNo;
+        this.name = name;
+        this.price = price;
+        this.quantity = 0; // Default quantity
+        this.description = "No description provided"; // Default description
+        System.out.println("Overloaded constructor with 3 parameters called");
+    }
 }

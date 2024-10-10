@@ -24,6 +24,10 @@ public class Testing {
         category1.addProduct(product2);
         category1.displayProducts();
 
+        //Using of Polymorphism
+        Product product3= new Product("P103", "Chair", 2000);
+        product3.displayDetails();
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the serial number to find the product:");
         String serialNo = scanner.nextLine();
