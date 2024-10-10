@@ -6,20 +6,22 @@ import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
+        // Single Inheritance: Category -> SubCategory
+        SubCategory subCategory = new SubCategory("Furniture", "Bedroom Furniture");
+        subCategory.displaySubcategoryDetails();
 
-        Category category1 = new Category("Bedroom");
-        Category category2 = new Category("Kitchen");
-        Category category3 = new Category("Washroom");
-        Category category4 = new Category("Furniture");
+        // Multilevel Inheritance: Product -> Furniture -> BedroomFurniture
+        BedroomFurniture bed = new BedroomFurniture("B123", "King Bed", 25000, 5, "Luxurious king-size bed", "Wood", "King");
+        bed.displayDetails();
 
         Product defaultProduct = new Product();
         defaultProduct.displayDetails();
 
-        Product product = new Product("satyam", "bed", 25, 1, "this is a bed");
-        Product product2 = new Product("shivam", "table", 20, 2, "this is a table");
+        Product product = new Product("P101", "Chair", 2000, 10, "Comfortable chair");
+        Product product2 = new Product("P102", "Table", 5000, 5, "Dining table");
+        Category category1 = new Category("Living Room");
         category1.addProduct(product);
         category1.addProduct(product2);
-
         category1.displayProducts();
 
         Scanner scanner = new Scanner(System.in);
@@ -36,15 +38,8 @@ public class Testing {
 
         Employee employee1 = new Employee("Satyam");
         Employee employee2 = new Employee("Shivam");
-        Employee employee3 = new Employee("Anshul");
 
-        Customer customer1 = new Customer("sam");
+        Customer customer1 = new Customer("Sam");
         Customer customer2 = new Customer("Shashi");
-//
-//        int employeeCount = Employee.getEmployeeCount();
-//        int customerCount = Customer.getCustomerCount();
-//
-//        System.out.println("Total Employees: " + employeeCount);
-//        System.out.println("Total Customers: " + customerCount);
     }
 }
