@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/marketplace/users/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Customer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Marketplace.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testing2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Inheritance&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java Coding/OOPS_Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java Coding/OOPS_Project/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Customer.executor": "Run",
+    "Application.Marketplace.executor": "Run",
+    "Application.Testing.executor": "Run",
+    "Application.Testing2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Polymorphism",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java Coding/OOPS_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Java Coding/OOPS_Project/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -105,7 +108,7 @@
       <workItem from="1726810585019" duration="10989000" />
       <workItem from="1727501771273" duration="55000" />
       <workItem from="1728535298100" duration="3695000" />
-      <workItem from="1728540564245" duration="453000" />
+      <workItem from="1728540564245" duration="2157000" />
     </task>
     <servers />
   </component>

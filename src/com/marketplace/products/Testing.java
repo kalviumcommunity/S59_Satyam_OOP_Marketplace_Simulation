@@ -2,6 +2,8 @@ package com.marketplace.products;
 
 import com.marketplace.users.Customer;
 import com.marketplace.users.Employee;
+import com.marketplace.users.User;
+
 import java.util.Scanner;
 
 public class Testing {
@@ -45,5 +47,13 @@ public class Testing {
 
         Customer customer1 = new Customer("Sam");
         Customer customer2 = new Customer("Shashi");
+
+        User customer3 = new Customer("Swasti");
+        User employee3 = new Employee("Abhishek");
+
+        // Calling overridden methods (virtual functions)
+        customer3.displayRole();
+        employee3.displayRole();
+
     }
 }

@@ -1,25 +1,18 @@
 package com.marketplace.users;
 
-public class Customer {
-    private String name;
+public class Customer extends User {
     private static int customerCount = 0;
 
     public Customer(String name) {
-        this.name = name;
+        super(name);
         customerCount++;
     }
 
-    // Accessor (Getter)
-    public String getName() {
-        return name;
+    @Override
+    public void displayRole() {
+        System.out.println("Role: Customer");
     }
 
-    // Mutator (Setter)
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    // Accessor (Getter) for customerCount
     public static int getCustomerCount() {
         return customerCount;
     }
