@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/marketplace/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/marketplace/products/ProductInventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/users/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     "Application.Testing2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Polymorphism",
+    "git-widget-placeholder": "AbstractClass",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java Coding/OOPS_Project",
     "node.js.detected.package.eslint": "true",
