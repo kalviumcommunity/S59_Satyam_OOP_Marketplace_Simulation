@@ -1,6 +1,8 @@
 package com.marketplace.products;
+import com.marketplace.management.InventoryManagement;
+import com.marketplace.management.PriceManagement;
 
-public class Product {
+public class Product implements InventoryManagement, PriceManagement {
     private String serialNo;
     private String name;
     private double price;
@@ -47,9 +49,6 @@ public class Product {
         this.description = description;
     }
 
-    public void updateQuantity(int additionalQuantity) {
-        this.quantity += additionalQuantity;
-    }
 
     public void displayDetails() {
         System.out.println("------------------------");
@@ -91,9 +90,17 @@ public class Product {
         System.out.println("Overloaded constructor with 3 parameters called");
     }
 
-    public void applyDiscount(double discountPercentage) {
-        double discountAmount = this.price * discountPercentage / 100;
-        this.price -= discountAmount;
-        System.out.println("Discount applied to " + name + ". New Price: " + price);
+    public void updateQuantity(int additionalQuantity) {
+        this.quantity += additionalQuantity;
+        System.out.println("Updated quantity: " + this.quantity);
     }
+
+    // PriceManagement implementation
+    @Override
+    public void applyDiscount(double percentage) {
+        this.price -= this.price * (percentage / 100);
+        System.out.println("Price after discount: " + this.price);
+    }
+
+
 }
