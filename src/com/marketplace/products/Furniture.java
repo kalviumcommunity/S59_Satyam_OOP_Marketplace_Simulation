@@ -17,4 +17,12 @@ public class Furniture extends Product {
         super.displayDetails();
         System.out.println("Material: " + material);
     }
+
+    @Override
+    public void applyDiscount(double discountPercentage) {
+        double additionalDiscount = discountPercentage + 2; // Additional 2% for furniture
+        double discountAmount = getPrice() * additionalDiscount / 100;
+        setPrice(getPrice() - discountAmount);
+        System.out.println("Special Discount applied to Furniture: " + getName() + ". New Price: " + getPrice());
+    }
 }

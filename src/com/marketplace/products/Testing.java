@@ -29,5 +29,11 @@ public class Testing {
         User employee = new Employee("Satyam");
         customer.displayRole();
         employee.displayRole();
+
+        Product chair = new Product("P101", "Chair", 2000, 10, "Comfortable chair");
+        Furniture sofa = new Furniture("F102", "Sofa", 10000, 5, "Luxury sofa", "Leather");
+
+        chair.applyDiscount(10);
+        sofa.applyDiscount(10);
     }
 }

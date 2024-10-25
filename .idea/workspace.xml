@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887666a1-b9ea-4f36-9c79-16fdfdd37949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/marketplace/products/ProductInventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Furniture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marketplace/products/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
     "Application.Testing2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AbstractClass",
+    "git-widget-placeholder": "SolidPrincipleOne",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java Coding/OOPS_Project",
     "node.js.detected.package.eslint": "true",
