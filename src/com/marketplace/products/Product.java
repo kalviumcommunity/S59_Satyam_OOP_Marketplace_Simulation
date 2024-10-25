@@ -90,4 +90,10 @@ public class Product {
         this.description = "No description provided"; // Default description
         System.out.println("Overloaded constructor with 3 parameters called");
     }
+
+    public void applyDiscount(double discountPercentage) {
+        double discountAmount = this.price * discountPercentage / 100;
+        this.price -= discountAmount;
+        System.out.println("Discount applied to " + name + ". New Price: " + price);
+    }
 }
